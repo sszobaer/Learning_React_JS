@@ -38,8 +38,8 @@ let users = [
 
   return (
     <div className='flex justify-between'>
-      {users.map((elem)=>{
-        return <Card name={elem.name} age = {elem.age} city = {elem.city} prof = {elem.profession}/>
+      {users.map((elem, idx)=>{
+        return <Card key={idx} name={elem.name} age = {elem.age} city = {elem.city} prof = {elem.profession}/>
       })}
     </div>
   )
