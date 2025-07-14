@@ -35,7 +35,6 @@ let users = [
   }
 ]
 
-
   return (
     <div className='flex justify-between'>
       {users.map((elem, idx)=>{

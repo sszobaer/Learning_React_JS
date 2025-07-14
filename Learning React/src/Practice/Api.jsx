@@ -20,8 +20,8 @@ const Api = () => {
             data.map(function(elem, idx){
                 return(
                     <div key = {idx} className='flex flex-col items-center m-3 p-3 bg-slate-800 rounded'>
-                        <img className="h-40 rounded" src={elem.download_url} alt="" />
-                        <h1>{elem.author}</h1>
+                      <img className="h-40 rounded" src={elem.download_url} alt="" />
+                      <h1>{elem.author}</h1>
                     </div>
                 )
             })
